@@ -20,19 +20,19 @@ export const priceRangeOptions = [
 ];
 
 export const bedroomsOptions = [
-  { name: "1 bedroom", value: "1_Bedroom" },
-  { name: "2 bedrooms", value: "2_Bedrooms" },
-  { name: "3 bedrooms", value: "3_Bedrooms" },
-  { name: "4 bedrooms", value: "4_Bedrooms" },
-  { name: "5 bedrooms or more", value: "5_Bedrooms_or_more" },
+  { name: "1 bedroom", value: "1" },
+  { name: "2 bedrooms", value: "2" },
+  { name: "3 bedrooms", value: "3" },
+  { name: "4 bedrooms", value: "4" },
+  { name: "5 bedrooms or more", value: "5" },
 ];
 
 export const bathroomsOptions = [
-  { name: "1 bathroom", value: "1_Bathroom" },
-  { name: "2 bathrooms", value: "2_Bathrooms" },
-  { name: "3 bathrooms", value: "3_Bathrooms" },
-  { name: "4 bathrooms", value: "4_Bathrooms" },
-  { name: "5 bathrooms or more", value: "5_Bathrooms_or_more" },
+  { name: "1 bathroom", value: "1" },
+  { name: "2 bathrooms", value: "2" },
+  { name: "3 bathrooms", value: "3" },
+  { name: "4 bathrooms", value: "4" },
+  { name: "5 bathrooms or more", value: "5" },
 ];
 
 export const categoryOptions = [

@@ -12,7 +12,7 @@ import { getHouses } from "@/lib/actions/houses.action";
 export default async function Home({ searchParams }: any) {
   const result = await getHouses({
     searchQuery: searchParams.q,
-    filter: searchParams.filter,
+    searchParams
   });
 
   return (
@@ -24,11 +24,15 @@ export default async function Home({ searchParams }: any) {
       />
 
       <div className=" flex justify-center items-center p-1 gap-2 flex-wrap">
-        <Filter
+       <Filter
+       
+       />
+        {/* <Filter
           filters={categoryOptions}
           otherClasses="min-h-[56px] sm:min-w-[170px]"
           placeHolder="Category"
         />
+        
 
         <Filter
           filters={seasonOptions}
@@ -46,7 +50,7 @@ export default async function Home({ searchParams }: any) {
           filters={bathroomsOptions}
           otherClasses="min-h-[56px] sm:min-w-[170px]"
           placeHolder="Bathrooms"
-        />
+        /> */}
       </div>
 
       <div className="flex flex-wrap max-w-7xl gap-5 mx-auto">
